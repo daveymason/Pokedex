@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<title>Pokedex</title>
+
+<link rel="stylesheet" href="themes/pokedexSkin.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<link rel="stylesheet" href="pokedexStyle.css" />
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="pokedexScript.js"></script>
+
+</head>
+<body>
+<!-- This code can be done more dynamically but I found it too difficult to get it working. -->
+<div data-role="page" id="pokedex">
+	<div data-role="panel" id="sidePanel" data-display="push" data-position="left">
+		<h1>Notes:</h1>
+		<p> Made by David Mason. This app acts like a pokedex so people can see basic information about their pokemon. To enhance the user experience, the background image for the panel is giving the illusion of Pikachu "push"ing the panel against the main page. The slide transition from the pokedex to the pokemon page has been slowed down to further enhance the idea that the app is wider than it really is. All Pokemon images  are from <a href="https://serebii.net/" target="_blank">Serebii.net</a></p>
+	</div>
+	
+     <div data-role="header">
+		<a href="#sidePanel" class="ui-btn ui-icon-bars ui-btn-icon-notext"></a>
+			
+
+        <h1>Pokedex</h1> 
+    </div> 	
+	<!-- The data- attributes were amazing help in this assignment. -->
+	<div role="main" class="ui-content">
+        <ul id="pokeList" data-role="listview" data-inset="true" data-filter="true" data-autodividers="true" data-sort="true" data-theme="a" data-divider-theme="a"> 
+         
+        </ul>
+
+    </div> 
+</div>  
+
+<script>
+
+</script>
+
+</body>
+</html>
+
+
