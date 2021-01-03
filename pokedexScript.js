@@ -1,5 +1,3 @@
-
-//Code re-use. http://jsfiddle.net/twjjL53r/2/ Some of the code has been changed to suit this assignment. 
 $(document).on("pagebeforeshow", "#pokedex", function () {    
 	$.getJSON('pokedexList.json', function(data) {
 			//Good to sort the data before anything else goes on
@@ -32,7 +30,6 @@ $(document).on("pagebeforeshow", "#pokedex", function () {
 	 
 });
 
-//Code reUse. The below function and the sort code above was taken from here - https://stackoverflow.com/questions/1129216/sort-array-of-objects-by-string-property-data-in-javascript
 		function compare(a,b) {
 
 				if (a.name < b.name)

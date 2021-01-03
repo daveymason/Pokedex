@@ -1,16 +1,3 @@
-
-/*
-.ui-icon-pokeballicon {
-    background-image: url("images/Pokeball.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-}
- 
-Just could not get this working.
-I tried adding ":after" as shown in the demo on the jQuery website but nothing would happen. 
-Unfortunately I was running out of time and needed to finish other parts of the project. 
-*/
-
 #sidePanel{
 	background-image: url("images/pikachu.jpg"); 
 	background-size: contain;
@@ -30,6 +17,6 @@ I wanted to slow down the transition for the pokemon page to appear so it's clos
 
 
 h1 { 
-font-family: "Comic Sans MS", "Comic Sans", cursive!important; 
+font-family: "Comic Sans MS", "Comic Sans", cursive !important; 
 }
 
